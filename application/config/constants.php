@@ -86,5 +86,5 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
 
 
 // ADMINLITE specifics
-defined('ADMINLITE_DEMO_MODE') OR define('ADMINLITE_DEMO_MODE', TRUE);
+defined('ADMINLITE_DEMO_MODE') OR define('ADMINLITE_DEMO_MODE', FALSE);
 

@@ -8,7 +8,6 @@ class Auth extends MY_Controller {
 		$this->load->library('mailer');
 		$this->load->model('auth_model', 'auth_model');
 	}
-
 	//--------------------------------------------------------------
 	public function index(){
 
@@ -19,7 +18,6 @@ class Auth extends MY_Controller {
 			redirect('auth/login');
 		}
 	}
-
 	//--------------------------------------------------------------
 	public function login(){
 
